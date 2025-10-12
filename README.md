@@ -1,4 +1,4 @@
-🧠 AI Meeting Summarizer
+🧠 AI Meeting Summarizer \n
 This is a full-stack application designed to transcribe and summarize your meeting audio files using the power of AI. Simply upload an audio file, and the application will provide you with a complete transcript, a concise summary, a list of action items, and even a draft for a follow-up email.
 
 ✨ Features
