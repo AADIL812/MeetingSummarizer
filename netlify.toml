@@ -1,0 +1,16 @@
+[build]
+  # This tells Netlify where your frontend code is.
+  base = "frontend"
+  
+  # This is the command to build your site.
+  command = "npm run build"
+  
+  # This is the folder that gets published.
+  publish = "frontend/dist"
+
+# This rule is essential for single-page applications like React.
+# It ensures that refreshing the page or direct navigation works correctly.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
